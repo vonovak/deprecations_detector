@@ -1,0 +1,19 @@
+{
+  "name": "deprecation-messages-automator",
+  "version": "1.0.0",
+  "description": "automate opening issues on repos with deprecated apis",
+  "main": "index.ts",
+  "scripts": {
+    "start": "bun run index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vonovak@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/graphql": "^8.1.1",
+    "@octokit/rest": "^20.0.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  }
+}
